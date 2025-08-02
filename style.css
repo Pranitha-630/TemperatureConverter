@@ -1,0 +1,74 @@
+body{
+    margin: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(rgb(83, 139, 224),rgb(228, 84, 182));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 16, 14);
+   
+   background-image: url("images.jpeg");
+   background-position: center;
+   background-size: cover;
+}
+.container{
+    text-align: left;
+    background:rgb(248, 243, 248);
+    padding: 10px;
+    box-shadow: 0.4px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    width: 90%;
+    max-width: 500px;
+    min-width : 200px;;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.heading {
+  font-size: 35px;
+}
+
+.temp-container {
+  width: 100%;
+  padding: 15px;
+  font-weight:bolder;
+  font-size: 20px;
+}
+
+.input {
+  width: 220px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 5px;
+  float:right;
+  background: rgba(221, 222, 223, 0.3);
+  border-color: rgba(248, 252, 251, 0.5);
+  color: rgb(9, 9, 9);
+  font-size: 18px;
+  text-align: right;
+}
+
+
+.input::placeholder{
+    color:rgb(18, 13, 13);
+    text-align: center;
+}
+button{
+  font-size: 20px;
+  padding: 3px 30px;
+  color: rgb(10, 9, 9);
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}
+.result-row{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.result-row label{
+  font-weight:bolder;
+  font-size: 20px;
+}
